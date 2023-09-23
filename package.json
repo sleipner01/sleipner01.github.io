@@ -14,9 +14,7 @@
     "lint:css": "npx stylelint \"src/**/*{css, js, ts, tsx, jsx}\"",
     "lint:css:fix": "npx stylelint --fix \"src/**/*{css, js, ts, tsx, jsx}\"",
     "format": "prettier --write 'src/**/*.{ts,tsx,js,jsx,scss,json,css}' --config .prettierrc.cjs",
-    "preview": "vite preview",
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d dist"
+    "preview": "vite preview"
   },
   "dependencies": {
     "react": "^18.2.0",
@@ -39,7 +37,6 @@
     "eslint-plugin-react-refresh": "^0.4.3",
     "eslint-plugin-simple-import-sort": "^10.0.0",
     "eslint-plugin-unused-imports": "^3.0.0",
-    "gh-pages": "^6.0.0",
     "jsdom": "^22.1.0",
     "prettier": "^3.0.3",
     "stylelint": "^15.10.3",
