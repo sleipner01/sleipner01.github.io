@@ -1,27 +1,23 @@
 import './App.scss';
 
-import { useState } from 'react';
+// eslint-disable-next-line import/no-unresolved
+import viteLogo from '/vite.svg';
 
 import reactLogo from './assets/react.svg';
+import DVDLogo from './dvd/DVDLogo';
 
 function App() {
-  const [count, setCount] = useState(0);
-
   return (
     <>
       <div>
+        <img src={viteLogo} className='logo vite' alt='Vite logo' />
         <a href='https://react.dev' target='_blank' rel='noreferrer'>
           <img src={reactLogo} className='logo react' alt='React logo' />
         </a>
       </div>
-      <h1>Vite + React</h1>
-      <div className='card'>
-        <button onClick={() => setCount((count) => count + 1)}>count is {count}</button>
-        <p>
-          Edit <code>src/App.tsx</code> and save to test HMR
-        </p>
-      </div>
-      <p className='read-the-docs'>Click on the Vite and React logos to learn more</p>
+      <h1>Magnus Byrkjeland</h1>
+      <h2>This site is under construction...</h2>
+      <DVDLogo width={window.innerWidth} height={window.innerHeight} />
     </>
   );
 }
