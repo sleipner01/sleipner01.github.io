@@ -1,23 +1,17 @@
 import './App.scss';
 
+import helloMascot from './assets/helloMascot.svg';
+import smilingMascot from './assets/smilingMascot.svg';
 // eslint-disable-next-line import/no-unresolved
-import viteLogo from '/vite.svg';
-
-import reactLogo from './assets/react.svg';
 import DVDLogo from './dvd/DVDLogo';
 
 function App() {
   return (
     <>
-      <div>
-        <img src={viteLogo} className='logo vite' alt='Vite logo' />
-        <a href='https://react.dev' target='_blank' rel='noreferrer'>
-          <img src={reactLogo} className='logo react' alt='React logo' />
-        </a>
-      </div>
-      <h1>Magnus Byrkjeland</h1>
-      <h2>This site is under construction...</h2>
       <DVDLogo width={window.innerWidth} height={window.innerHeight} />
+      <img src={helloMascot} width='100' alt='' />
+      <img src={smilingMascot} width='100' alt='' />
+      <h1>Magnus Byrkjeland</h1>
     </>
   );
 }
