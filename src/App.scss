@@ -4,3 +4,19 @@
   padding: 2rem;
   text-align: center;
 }
+
+h1 {
+  overflow-x: hidden;
+  white-space: nowrap;
+  animation: text-writer 0.7s steps(20, end);
+}
+
+@keyframes text-writer {
+  from {
+    width: 0;
+  }
+
+  to {
+    width: 100%;
+  }
+}
