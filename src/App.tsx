@@ -1,6 +1,5 @@
 import './App.scss';
 
-// eslint-disable-next-line import/no-unresolved
 import DVDLogo from './dvd/DVDLogo';
 
 function App() {
