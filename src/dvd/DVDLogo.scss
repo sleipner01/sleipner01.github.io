@@ -1,22 +1,21 @@
 .dvd {
   position: fixed;
   z-index: -1;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
+  inset: 0;
   opacity: 0.1;
-  animation-name: initialDelay;
+  animation-name: initial-delay;
   animation-duration: 6s;
 }
 
-@keyframes initialDelay {
+@keyframes initial-delay {
   0% {
     opacity: 0;
   }
+
   90% {
     opacity: 0;
   }
+
   100% {
     opacity: 0.1;
   }
