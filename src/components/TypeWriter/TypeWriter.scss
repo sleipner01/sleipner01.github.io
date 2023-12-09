@@ -1,6 +1,26 @@
 .typewriter-container {
   color: #00ff00;
 
+  .socials-container {
+    display: flex;
+    flex-direction: row;
+
+    a {
+      color: #00ff00;
+      text-decoration: none;
+      margin-right: 20px;
+
+      &:hover {
+        box-shadow: 0 0 20px #006600;
+      }
+    }
+  }
+
+  .link {
+    box-shadow: 0 0 20px #006600;
+    cursor: pointer;
+  }
+
   .first,
   .second,
   .third,
@@ -11,7 +31,10 @@
   .eighth,
   .ninth,
   .tenth,
-  .eleventh {
+  .eleventh,
+  .thirteenth,
+  .fourteenth,
+  .fifteenth {
     overflow: hidden;
     white-space: nowrap;
   }
@@ -62,6 +85,18 @@
 
   .twelvth {
     animation: twelvth 40s steps(100, end);
+  }
+
+  .thirteenth {
+    animation: thirteenth 60s steps(100, end);
+  }
+
+  .fourteenth {
+    animation: fourteenth 60s steps(100, end);
+  }
+
+  .fifteenth {
+    animation: fifteenth 60s steps(100, end);
   }
 
   @keyframes first {
@@ -232,6 +267,48 @@
     }
     57% {
       visibility: visible;
+    }
+  }
+
+  @keyframes thirteenth {
+    0% {
+      width: 0;
+      visibility: hidden;
+    }
+    64% {
+      width: 0;
+      visibility: visible;
+    }
+    74% {
+      width: 100%;
+    }
+  }
+
+  @keyframes fourteenth {
+    0% {
+      width: 0;
+      visibility: hidden;
+    }
+    68% {
+      width: 0;
+      visibility: visible;
+    }
+    78% {
+      width: 100%;
+    }
+  }
+
+  @keyframes fifteenth {
+    0% {
+      width: 0;
+      visibility: hidden;
+    }
+    72% {
+      width: 0;
+      visibility: visible;
+    }
+    82% {
+      width: 100%;
     }
   }
 }
