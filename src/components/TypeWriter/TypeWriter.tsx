@@ -30,7 +30,9 @@ const TypeWriter = () => {
       <p className='thirteenth'>Wow! You&apos;re still here?? Impressive!</p>
       <p className='fourteenth'>K&apos; then, I have some more to show you...</p>
       <p className='fifteenth'>
-        <a className='link'>Click me ❤️</a>
+        <a href='#' className='link'>
+          Click me ❤️
+        </a>
       </p>
     </div>
   );

@@ -1,12 +1,13 @@
 .typewriter-container {
-  color: #00ff00;
+  color: var(--type-writer-color);
+  font-family: var(--type-writer-font-family);
 
   .socials-container {
     display: flex;
     flex-direction: row;
 
     a {
-      color: #00ff00;
+      color: var(--type-writer-color);
       text-decoration: none;
       margin-right: 20px;
 
@@ -17,6 +18,8 @@
   }
 
   .link {
+    color: var(--type-writer-color);
+    text-decoration: none;
     box-shadow: 0 0 20px #006600;
     cursor: pointer;
   }
