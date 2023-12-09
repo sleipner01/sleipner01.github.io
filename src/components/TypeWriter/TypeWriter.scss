@@ -103,7 +103,7 @@
     0% {
       width: 0;
     }
-    10% {
+    8% {
       width: 100%;
     }
   }
@@ -118,7 +118,7 @@
       visibility: visible;
     }
 
-    18% {
+    12% {
       width: 100%;
     }
   }
@@ -133,7 +133,7 @@
       visibility: visible;
     }
 
-    22% {
+    16% {
       width: 100%;
     }
   }
@@ -148,7 +148,7 @@
       visibility: visible;
     }
 
-    26% {
+    20% {
       width: 100%;
     }
   }
@@ -163,7 +163,7 @@
       visibility: visible;
     }
 
-    32% {
+    28% {
       width: 100%;
     }
   }
@@ -178,7 +178,7 @@
       visibility: visible;
     }
 
-    40% {
+    36% {
       width: 100%;
     }
   }
@@ -188,12 +188,12 @@
       width: 0;
       visibility: hidden;
     }
-    32% {
+    36% {
       width: 0;
       visibility: visible;
     }
 
-    42% {
+    40% {
       width: 100%;
     }
   }
@@ -203,12 +203,12 @@
       width: 0;
       visibility: hidden;
     }
-    34% {
+    38% {
       width: 0;
       visibility: visible;
     }
 
-    44% {
+    42% {
       width: 100%;
     }
   }
@@ -218,12 +218,12 @@
       width: 0;
       visibility: hidden;
     }
-    42% {
+    46% {
       width: 0;
       visibility: visible;
     }
 
-    52% {
+    50% {
       width: 100%;
     }
   }
@@ -233,12 +233,12 @@
       width: 0;
       visibility: hidden;
     }
-    50% {
+    52% {
       width: 0;
       visibility: visible;
     }
 
-    60% {
+    54% {
       width: 100%;
     }
   }
@@ -248,12 +248,12 @@
       width: 0;
       visibility: hidden;
     }
-    52% {
+    54% {
       width: 0;
       visibility: visible;
     }
 
-    62% {
+    58% {
       width: 100%;
     }
   }
@@ -262,10 +262,10 @@
     0% {
       visibility: hidden;
     }
-    56% {
+    58% {
       visibility: hidden;
     }
-    57% {
+    59% {
       visibility: visible;
     }
   }
@@ -279,7 +279,7 @@
       width: 0;
       visibility: visible;
     }
-    74% {
+    68% {
       width: 100%;
     }
   }
@@ -293,7 +293,7 @@
       width: 0;
       visibility: visible;
     }
-    78% {
+    72% {
       width: 100%;
     }
   }
@@ -307,8 +307,19 @@
       width: 0;
       visibility: visible;
     }
-    82% {
+    78% {
       width: 100%;
     }
+  }
+}
+@media screen and (width < 600px) {
+  .typewriter-container {
+    font-size: 0.7em;
+  }
+}
+
+@media screen and (width < 480px) {
+  .typewriter-container {
+    font-size: 0.5em;
   }
 }
