@@ -1,10 +1,11 @@
 import './TypeWriter.scss';
 
 import { useEffect, useState } from 'react';
+import { Link } from 'react-router-dom';
 
-import GithubIcon from '../../assets/github-green.svg';
-import LinkedinIcon from '../../assets/linkedin-green.svg';
-import DVDLogo from '..//DVD/DVDLogo';
+import GithubIcon from '../assets/github-green.svg';
+import LinkedinIcon from '../assets/linkedin-green.svg';
+import DVDLogo from '../components/DVD/DVDLogo';
 
 const TypeWriter = () => {
   // Viewport size to update the DVD logo playground
@@ -57,9 +58,9 @@ const TypeWriter = () => {
         <p className='thirteenth'>Wow! You&apos;re still here?? Impressive!</p>
         <p className='fourteenth'>K&apos; then, I have some more to show you...</p>
         <p className='fifteenth'>
-          <a href='#' className='link'>
+          <Link to='/portfolio' className='link'>
             Click me ❤️
-          </a>
+          </Link>
         </p>
       </div>
     </>
