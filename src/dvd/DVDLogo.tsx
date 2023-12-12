@@ -15,6 +15,18 @@ const getRandomNumber = (min: number, max: number): number => {
   return Math.random() * (max - min) + min;
 };
 
+/**
+ *  DVDLogo
+ *
+ * This component is a SVG of the DVD logo, that bounces around within the area set by the parameters.
+ * If the logo hits the edge, it will change direction and color.
+ * If the element is resized within the browser, make sure to update the width and height parameters.
+ *
+ * @param width - The width of the SVG
+ * @param height - The height of the SVG
+ *
+ * @returns JSX.Element
+ */
 const DVDLogo: React.FC<DVDLogoProps> = (props) => {
   const [state, setState] = useState({
     x: getRandomNumber(0, props.width - widthDVDLogo),
@@ -41,11 +53,15 @@ const DVDLogo: React.FC<DVDLogoProps> = (props) => {
       };
 
       if (newState.x + widthDVDLogo >= props.width || newState.x <= 0) {
+        // To make sure the logo doesn't get stuck on the edge, because someone will try!
+        newState.x = newState.x <= 0 ? 0 : props.width - widthDVDLogo;
         newState.xSpeed = -newState.xSpeed;
         Object.assign(newState, getRandomColors());
       }
 
       if (newState.y + heightDVDLogo >= props.height || newState.y <= 0) {
+        // To make sure the logo doesn't get stuck on the edge, because someone will try!
+        newState.y = newState.y <= 0 ? 0 : props.height - heightDVDLogo;
         newState.ySpeed = -newState.ySpeed;
         Object.assign(newState, getRandomColors());
       }
