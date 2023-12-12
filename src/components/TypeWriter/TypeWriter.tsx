@@ -1,13 +1,33 @@
 import './TypeWriter.scss';
 
+import { useEffect, useState } from 'react';
+
 import GithubIcon from '../../assets/github-green.svg';
 import LinkedinIcon from '../../assets/linkedin-green.svg';
 import DVDLogo from '..//DVD/DVDLogo';
 
 const TypeWriter = () => {
+  // Viewport size to update the DVD logo playground
+  const [viewportSize, setViewportSize] = useState({
+    width: window.innerWidth,
+    height: window.innerHeight,
+  });
+
+  useEffect(() => {
+    const handleResize = () => {
+      setViewportSize({
+        width: window.innerWidth,
+        height: window.innerHeight,
+      });
+    };
+
+    window.addEventListener('resize', handleResize);
+
+    return () => window.removeEventListener('resize', handleResize);
+  }, []);
   return (
     <>
-      <DVDLogo width={window.innerWidth} height={window.innerHeight} />
+      <DVDLogo width={viewportSize.width} height={viewportSize.height} />
 
       <div className='typewriter-container'>
         <p className='first'>Magnus Byrkjeland&apos;s Personal Website 🚀</p>
