@@ -11,17 +11,27 @@
       text-decoration: none;
       margin-right: 20px;
 
-      &:hover {
-        box-shadow: 0 0 20px #006600;
+      &:hover img {
+        box-shadow: 0 0 20px var(--type-writer-color-hover);
       }
+    }
+
+    img {
+      width: 30px;
+      height: 30px;
     }
   }
 
   .link {
     color: var(--type-writer-color);
-    text-decoration: none;
-    box-shadow: 0 0 20px #006600;
+    text-decoration: underline;
     cursor: pointer;
+    padding: 4px 8px 4px 0;
+    transition: font-size 0.1s ease-in;
+
+    &:hover {
+      font-size: 1.1em;
+    }
   }
 
   .first,
