@@ -1,6 +1,6 @@
 import './Portfolio.scss';
 
-import ViteIcon from '../../public/vite.svg';
+import ViteIcon from '../assets/vite.svg';
 
 function Portfolio() {
   return (
