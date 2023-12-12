@@ -6,6 +6,11 @@
     display: flex;
     flex-direction: row;
 
+    img {
+      width: 30px;
+      height: 30px;
+    }
+
     a {
       color: var(--type-writer-color);
       text-decoration: none;
@@ -14,11 +19,6 @@
       &:hover img {
         box-shadow: 0 0 20px var(--type-writer-color-hover);
       }
-    }
-
-    img {
-      width: 30px;
-      height: 30px;
     }
   }
 
@@ -116,6 +116,7 @@
     0% {
       width: 0;
     }
+
     8% {
       width: 100%;
     }
@@ -126,6 +127,7 @@
       width: 0;
       visibility: hidden;
     }
+
     8% {
       width: 0;
       visibility: visible;
@@ -141,6 +143,7 @@
       width: 0;
       visibility: hidden;
     }
+
     12% {
       width: 0;
       visibility: visible;
@@ -156,6 +159,7 @@
       width: 0;
       visibility: hidden;
     }
+
     16% {
       width: 0;
       visibility: visible;
@@ -171,6 +175,7 @@
       width: 0;
       visibility: hidden;
     }
+
     22% {
       width: 0;
       visibility: visible;
@@ -186,6 +191,7 @@
       width: 0;
       visibility: hidden;
     }
+
     30% {
       width: 0;
       visibility: visible;
@@ -201,6 +207,7 @@
       width: 0;
       visibility: hidden;
     }
+
     36% {
       width: 0;
       visibility: visible;
@@ -216,6 +223,7 @@
       width: 0;
       visibility: hidden;
     }
+
     38% {
       width: 0;
       visibility: visible;
@@ -231,6 +239,7 @@
       width: 0;
       visibility: hidden;
     }
+
     46% {
       width: 0;
       visibility: visible;
@@ -246,6 +255,7 @@
       width: 0;
       visibility: hidden;
     }
+
     52% {
       width: 0;
       visibility: visible;
@@ -261,6 +271,7 @@
       width: 0;
       visibility: hidden;
     }
+
     54% {
       width: 0;
       visibility: visible;
@@ -275,9 +286,11 @@
     0% {
       visibility: hidden;
     }
+
     58% {
       visibility: hidden;
     }
+
     59% {
       visibility: visible;
     }
@@ -288,10 +301,12 @@
       width: 0;
       visibility: hidden;
     }
+
     64% {
       width: 0;
       visibility: visible;
     }
+
     68% {
       width: 100%;
     }
@@ -302,10 +317,12 @@
       width: 0;
       visibility: hidden;
     }
+
     68% {
       width: 0;
       visibility: visible;
     }
+
     72% {
       width: 100%;
     }
@@ -316,15 +333,18 @@
       width: 0;
       visibility: hidden;
     }
+
     72% {
       width: 0;
       visibility: visible;
     }
+
     78% {
       width: 100%;
     }
   }
 }
+
 @media screen and (width < 600px) {
   .typewriter-container {
     font-size: 0.7em;
