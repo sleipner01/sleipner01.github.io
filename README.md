@@ -1,11 +1,9 @@
-# [sleipner01.github.io](https://sleipner01.github.io)
+# 🧑🏽‍💻 [magnusbyrkjeland.no](https://magnusbyrkjeland.no)
 
-This repo is for my portfolio. It is under development.
+This repo is for my portfolio. It is under development...
 
-# Scripts
+<img src="https://i.gifer.com/Ao.gif" width=400>
 
-## Deploy To Github Pages
+### Me thinking I will be done over the christmas break
 
-```bash
-npm run deploy
-```
+<img src="https://i.gifer.com/R0nL.gif" width=400>
