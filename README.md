@@ -2,8 +2,4 @@
 
 This repo is for my portfolio. It is under development...
 
-<img src="https://i.gifer.com/Ao.gif" width=400>
-
-### Me thinking I will be done over the christmas break
-
-<img src="https://i.gifer.com/R0nL.gif" width=400>
+<img src="https://media.giphy.com/media/H1dxi6xdh4NGQCZSvz/giphy.gif" width=400 alt="Cat typing fast">
