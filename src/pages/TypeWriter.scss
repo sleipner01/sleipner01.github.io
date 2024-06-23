@@ -39,15 +39,7 @@
   .third,
   .fourth,
   .fifth,
-  .sixth,
-  .seventh,
-  .eighth,
-  .ninth,
-  .tenth,
-  .eleventh,
-  .thirteenth,
-  .fourteenth,
-  .fifteenth {
+  .sixth {
     overflow: hidden;
     white-space: nowrap;
   }
@@ -74,42 +66,6 @@
 
   .sixth {
     animation: sixth 40s steps(100, end);
-  }
-
-  .seventh {
-    animation: seventh 40s steps(100, end);
-  }
-
-  .eighth {
-    animation: eighth 40s steps(100, end);
-  }
-
-  .ninth {
-    animation: ninth 40s steps(100, end);
-  }
-
-  .tenth {
-    animation: tenth 40s steps(100, end);
-  }
-
-  .eleventh {
-    animation: eleventh 40s steps(100, end);
-  }
-
-  .twelvth {
-    animation: twelvth 40s steps(100, end);
-  }
-
-  .thirteenth {
-    animation: thirteenth 60s steps(100, end);
-  }
-
-  .fourteenth {
-    animation: fourteenth 60s steps(100, end);
-  }
-
-  .fifteenth {
-    animation: fifteenth 60s steps(100, end);
   }
 
   @keyframes first {
@@ -176,12 +132,12 @@
       visibility: hidden;
     }
 
-    22% {
+    21% {
       width: 0;
       visibility: visible;
     }
 
-    28% {
+    27% {
       width: 100%;
     }
   }
@@ -192,154 +148,12 @@
       visibility: hidden;
     }
 
-    30% {
+    27% {
       width: 0;
       visibility: visible;
     }
 
-    36% {
-      width: 100%;
-    }
-  }
-
-  @keyframes seventh {
-    0% {
-      width: 0;
-      visibility: hidden;
-    }
-
-    36% {
-      width: 0;
-      visibility: visible;
-    }
-
-    40% {
-      width: 100%;
-    }
-  }
-
-  @keyframes eighth {
-    0% {
-      width: 0;
-      visibility: hidden;
-    }
-
-    38% {
-      width: 0;
-      visibility: visible;
-    }
-
-    42% {
-      width: 100%;
-    }
-  }
-
-  @keyframes ninth {
-    0% {
-      width: 0;
-      visibility: hidden;
-    }
-
-    46% {
-      width: 0;
-      visibility: visible;
-    }
-
-    50% {
-      width: 100%;
-    }
-  }
-
-  @keyframes tenth {
-    0% {
-      width: 0;
-      visibility: hidden;
-    }
-
-    52% {
-      width: 0;
-      visibility: visible;
-    }
-
-    54% {
-      width: 100%;
-    }
-  }
-
-  @keyframes eleventh {
-    0% {
-      width: 0;
-      visibility: hidden;
-    }
-
-    54% {
-      width: 0;
-      visibility: visible;
-    }
-
-    58% {
-      width: 100%;
-    }
-  }
-
-  @keyframes twelvth {
-    0% {
-      visibility: hidden;
-    }
-
-    58% {
-      visibility: hidden;
-    }
-
-    59% {
-      visibility: visible;
-    }
-  }
-
-  @keyframes thirteenth {
-    0% {
-      width: 0;
-      visibility: hidden;
-    }
-
-    64% {
-      width: 0;
-      visibility: visible;
-    }
-
-    68% {
-      width: 100%;
-    }
-  }
-
-  @keyframes fourteenth {
-    0% {
-      width: 0;
-      visibility: hidden;
-    }
-
-    68% {
-      width: 0;
-      visibility: visible;
-    }
-
-    72% {
-      width: 100%;
-    }
-  }
-
-  @keyframes fifteenth {
-    0% {
-      width: 0;
-      visibility: hidden;
-    }
-
-    72% {
-      width: 0;
-      visibility: visible;
-    }
-
-    78% {
+    33% {
       width: 100%;
     }
   }
